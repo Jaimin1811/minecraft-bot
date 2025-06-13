@@ -1,0 +1,20 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "A robust Node.js bot that maintains a persistent connection to Minecraft servers with automatic reconnection, chat monitoring, and basic server management features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "minecraft-data": "^3.89.0",
+    "mineflayer": "^4.25.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "node-cron": "^4.1.0",
+    "winston": "^3.17.0"
+  }
+}
