@@ -1,0 +1,9 @@
+2025-06-13 17:01:33 [ERROR]: Error: connect ECONNREFUSED 127.0.0.1:25565
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2025-06-13 17:02:13 [ERROR]: Error: getaddrinfo ENOTFOUND your-server-ip-here
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-06-13 17:14:08 [ERROR]: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-06-13 17:15:16 [ERROR]: Max reconnection attempts (10) reached. Exiting...
+2025-06-13 17:20:17 [ERROR]: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
